@@ -1,0 +1,138 @@
+body {
+    background-color:rgb(233, 235, 132);
+    font-size: 15px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+
+  h1 {
+    color:rgb(112, 204, 169);
+    text-align: center;
+    font-size:60px;
+    font-family:georgia;
+  }
+
+  h2 {
+    color:rgb(10, 10, 115);
+    text-align: center;
+    font-size:20px;
+    font-family:georgia;
+  }
+
+  h3 {
+    color:rgb(10, 10, 115);
+    text-align: center;
+    font-size:20px;
+    font-family:georgia;
+  }
+
+  h4 {
+    color:rgb(219, 82, 28);
+    font-size:20px;
+    font-family:courier;
+  }
+
+  h5 {
+    color:rgb(10, 10, 115);
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+    font-family:courier;
+  }
+
+  p {
+    width: 500px;
+  }
+
+  img {
+    border:5px dashed rgb(15, 99, 9);
+    width: 380px;
+    margin-bottom: 20px;
+  }
+
+  thead {
+    background-color:rgb(209, 170, 31);
+    color:rgb(49, 135, 25);
+    font-size:17px;
+    font-family:georgia;
+  }
+
+  tbody {
+    background-color:rgb(58, 150, 33);
+    color:rgb(25, 41, 133);
+    font-size:24px;
+    font-family:georgia;
+  }
+  th {
+    background-color:rgb(209, 170, 31);
+    color: rgb(189, 70, 90);
+    font-size: 20px;
+    font-family: georgia;
+  }
+
+  td {
+    background-color: rgb(165, 118, 204);
+    color: rgb(10,10,115);
+    font-size: 15px;
+    font-family: georgia;
+  }
+
+  .preparacion{
+    color: rgb(155, 30, 204);
+    font-size:20px;
+    font-weight: bold;
+    font-family:courier;
+  }
+
+  #model_recipe1, #model_recipe2,
+  #model_recipe3, #model_recipe4,
+  #sauce1, #sauce2,
+  #sauce3, #sauce4 {
+    position: static;
+  }
+
+  #model_recipe1, #model_recipe3 {
+    background: rgb(235,167,235);
+  }
+
+  #model_recipe2, #model_recipe4 {
+    background: rgb(112, 204, 169);
+  }
+
+  #sauce1, #sauce3 {
+    background: rgb(141,227,136);
+  }
+
+  #sauce2, #sauce4 {
+    background: rgb(127,224,36);
+  }
+  .catdog{
+      float: right;
+      width: 200px;
+      margin-top: -230px;
+  }
+ a:hover{
+ background-color: rgb(255, 214, 255);
+ }
+ a:active {
+      background-color: rgb(255, 214, 255);
+  } 
+  a:focus {
+      background-color: rgb(255, 214, 255);
+ }
+ iframe {
+    border:5px dashed rgb(15, 99, 9);
+ }
+ .catKiss {
+  float: right;
+  width: 450px;
+ }
+
+.clearfix {
+  float: none;
+  clear: both;
+}
